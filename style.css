@@ -13,7 +13,7 @@ body {
 
 .bg {
   background: url("assets/images/top-bg.svg");
-  background-color: #ffffff;
+  background-color: #fff;
   background-repeat: no-repeat;
   height: 688px;
   width: 100%;
@@ -76,5 +76,5 @@ nav a:hover {
 }
 
 .article-align li a {
-    color: #505F79;
-  }
+  color: #505f79;
+}
