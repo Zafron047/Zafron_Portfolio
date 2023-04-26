@@ -40,8 +40,9 @@ nav a:hover {
 .article-align {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 0 6.5%;
-  margin: 25% 0 0;
+  margin: 15% 0 15% 0;
   gap: 12px;
 }
 
