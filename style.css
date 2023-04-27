@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +39,7 @@ nav a:hover {
   cursor: pointer;
 }
 
-.Headline {
+.common-align {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,7 +48,7 @@ nav a:hover {
   gap: 12px;
 }
 
-.Headline h1 {
+.common-align h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -68,14 +70,110 @@ nav a:hover {
   line-height: 24px;
 }
 
-.Headline ul {
+.common-align ul {
   display: flex;
+  list-style: none;
 }
 
-.Headline li {
+.common-align li {
   padding-right: 6%;
 }
 
-.Headline li a {
+.common-align li a {
   color: #505f79;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin: 70px 3.2%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 4.5%;
+  background-color: #fff;
+  border-radius: 4.5%;
+  gap: 12px;
+  margin: 44px 0;
+
+}
+
+.card h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.exp {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+
+.exp p {
+  color: #344563;
+}
+
+.exp ul {
+  display: flex;
+}
+
+.exp li {
+  color: #7a869a;
+  margin-left: 16px;
+}
+
+.exp li::before {
+  content: "";
+  display: inline-block;
+  margin-bottom: 1px;
+  width: 8px;
+  height: 8px;
+  margin-right: 16px;
+  background-color: #c1c7d0;
+  border-radius: 50%;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.skill {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.skill-box {
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin-right: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #396DF2;
+  border: 1px solid #396DF2;
+  border-radius: 8px;
+  width: 126px;
+  /* height: 24px; */
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  text-align: center;
 }
