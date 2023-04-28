@@ -24,6 +24,7 @@ body {
   z-index: 1;
   height: 688px;
   width: 100%;
+
   /* max-width: 767px; */
   padding-top: 20%;
 }
@@ -35,6 +36,10 @@ body {
   position: relative;
   z-index: 2;
   background-color: #fff;
+}
+
+.social-icon a {
+  color: #505f79;
 }
 
 nav a:hover {
@@ -53,7 +58,7 @@ nav a:hover {
 }
 
 .Top-Page h1 {
-  background-color:none;
+  background-color: none;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -88,10 +93,6 @@ nav a:hover {
 
 .social-icon li {
   padding-right: 6%;
-}
-
-.social-icon a {
-  color: #505f79;
 }
 
 .card-grid {
@@ -213,6 +214,7 @@ nav a:hover {
 
 #resume-btn {
   width: 158px;
+
   /* margin-bottom: 24px; */
 }
 
@@ -230,7 +232,7 @@ nav a:hover {
 }
 
 .skill-type p {
-  color: #000000;
+  color: #000;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -239,6 +241,7 @@ nav a:hover {
 .language-items {
   display: flex;
   flex-direction: column;
+
   /* padding-top: 12px; */
   gap: 12px;
   margin: 12px;
@@ -285,6 +288,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   /* position: relative; */
   z-index: 1;
   padding-top: 100px;
@@ -295,6 +299,7 @@ hr {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
+
   /* margin-top: 103px; */
   color: #fff;
 }
