@@ -187,6 +187,16 @@ nav a:hover {
   cursor: pointer;
 }
 
+.btn:active {
+  background-color: #2230D2;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #6070FF;
+  color: #fff;
+}
+
 .bottom-page {
   display: flex;
   flex-direction: column;
@@ -307,7 +317,6 @@ hr {
 }
 
 .first {
-  margin-top: 27px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -355,6 +364,8 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 52px 0 32px;
+  gap: 15px;
 }
 
 .desk-form .btn {
@@ -373,8 +384,9 @@ hr {
 }
 
 .desk-form .btn:hover {
-  background-color: #bdbdf1;
+  background-color: #6070FF;
   color: white;
+  border: 2px solid #fff;
 }
 
 .contact-align hr {
