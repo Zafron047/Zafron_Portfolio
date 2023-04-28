@@ -24,8 +24,6 @@ body {
   z-index: 1;
   height: 688px;
   width: 100%;
-
-  /* max-width: 767px; */
   padding-top: 20%;
 }
 
@@ -214,8 +212,6 @@ nav a:hover {
 
 #resume-btn {
   width: 158px;
-
-  /* margin-bottom: 24px; */
 }
 
 .bottom-2 {
@@ -241,8 +237,6 @@ nav a:hover {
 .language-items {
   display: flex;
   flex-direction: column;
-
-  /* padding-top: 12px; */
   gap: 12px;
   margin: 12px;
 }
@@ -288,8 +282,6 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* position: relative; */
   z-index: 1;
   padding-top: 100px;
 }
@@ -299,8 +291,6 @@ hr {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-
-  /* margin-top: 103px; */
   color: #fff;
 }
 
