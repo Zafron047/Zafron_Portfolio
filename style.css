@@ -368,7 +368,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   margin: 52px 0 32px;
-  gap: 11px;
+  gap: 20px;
 }
 
 .desk-form .btn {
@@ -403,7 +403,7 @@ hr {
   margin-bottom: 8px;
   width: 125px;
   height: 5px;
-  background-color: #fff;
+  background-color: #0d151e;
   margin-top: 36px;
   border-radius: 10px;
   border: none;
