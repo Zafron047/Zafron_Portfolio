@@ -71,12 +71,11 @@ Run this command:
 
 ### Usage:
 
-Open this project to see the tools I have used to create this portfolio.
+Open this project in vscode to see the tools I have used to create my portfolio.
 
 ### Run tests:
 
-To run tests, run the following command:
-Open index.html with lite server in vscode.
+To run tests Open index.html with lite server in vscode.
 
 ### Deployment:
 
