@@ -1,5 +1,6 @@
 <a name="readme-top"></a>
 
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -45,7 +46,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -57,24 +58,20 @@ Code Editor
 Git
 
 ### Setup
-
 Clone this repository to your desired folder:
-Run this command
 
+### Install:
+Run this command:
 ```sh
   cd my-folder
-  git clone https://github.com/Zafron047/hello_microverse.git
+  git clone https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1.git
 ```
 
 --->
 
-### Install:
-
-Install this project with:
-
 ### Usage:
 
-To run the project, execute the following command:
+Open this project to see the tools I have used to create this portfolio.
 
 ### Run tests:
 
@@ -95,8 +92,6 @@ Deployment coming soon.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **[Header]**
@@ -108,23 +103,18 @@ Deployment coming soon.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Feel free to check the [issues page](https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1/issues).
+<br> <br>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give 5**\***
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+If you like this project give 5**\*** 
+<br> <br>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for the opportunity.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br> <br>
 
 ## 📝 License <a name="license"></a>
 
