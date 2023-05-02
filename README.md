@@ -87,9 +87,9 @@ Deployment coming soon.
 
 👤 **MD. Nohain Islam**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Zafron047)
+- Twitter: [@twitterhandle](https://https://twitter.com/NohainZ)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nohain-islam-0261b4148/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
