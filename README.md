@@ -1,5 +1,6 @@
 <a name="readme-top"></a>
 
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -45,7 +46,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -57,29 +58,24 @@ Code Editor
 Git
 
 ### Setup
-
 Clone this repository to your desired folder:
-Run this command
 
+### Install:
+Run this command:
 ```sh
   cd my-folder
-  git clone https://github.com/Zafron047/hello_microverse.git
+  git clone https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1.git
 ```
 
 --->
 
-### Install:
-
-Install this project with:
-
 ### Usage:
 
-To run the project, execute the following command:
+Open this project in vscode to see the tools I have used to create my portfolio.
 
 ### Run tests:
 
-To run tests, run the following command:
-Open index.html with lite server in vscode.
+To run tests Open index.html with lite server in vscode.
 
 ### Deployment:
 
@@ -91,11 +87,9 @@ Deployment coming soon.
 
 👤 **MD. Nohain Islam**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- GitHub: [@githubhandle](https://github.com/Zafron047)
+- Twitter: [@twitterhandle](https://https://twitter.com/NohainZ)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nohain-islam-0261b4148/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -108,23 +102,18 @@ Deployment coming soon.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Feel free to check the [issues page](https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1/issues).
+<br> <br>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give 5**\***
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+If you like this project give 5**\*** 
+<br> <br>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for the opportunity.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<br> <br>
 
 ## 📝 License <a name="license"></a>
 

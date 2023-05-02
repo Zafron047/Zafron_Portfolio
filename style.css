@@ -36,10 +36,6 @@ body {
   background-color: #fff;
 }
 
-.social-icon a {
-  color: #505f79;
-}
-
 nav a:hover {
   cursor: pointer;
 }
@@ -91,6 +87,14 @@ nav a:hover {
 
 .social-icon li {
   padding-right: 6%;
+}
+
+.fa-brands {
+  color: #505f79;
+}
+
+.fa-brands:hover {
+  background-color: #d0d5fd;
 }
 
 .card-grid {
@@ -187,13 +191,13 @@ nav a:hover {
   cursor: pointer;
 }
 
-.btn:active {
-  background-color: #2230d2;
+.btn:hover {
+  background-color: #6070ff;
   color: #fff;
 }
 
-.btn:hover {
-  background-color: #6070ff;
+.btn:active {
+  background-color: #2230d2;
   color: #fff;
 }
 
@@ -290,7 +294,6 @@ hr {
   border-top-left-radius: 90px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   z-index: 1;
   padding-top: 100px;
@@ -365,7 +368,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   margin: 52px 0 32px;
-  gap: 15px;
+  gap: 20px;
 }
 
 .desk-form .btn {
@@ -389,12 +392,18 @@ hr {
   border: 2px solid #fff;
 }
 
+.desk-form .btn:active {
+  background-color: #2230d2;
+  color: white;
+  border: 2px solid #fff;
+}
+
 .contact-align hr {
   margin: 0 auto;
   margin-bottom: 8px;
   width: 125px;
   height: 5px;
-  background-color: black;
+  background-color: #0d151e;
   margin-top: 36px;
   border-radius: 10px;
   border: none;
