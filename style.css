@@ -11,7 +11,6 @@
 
 body {
   background-color: #e5e5e5;
-  /* overflow-x: hidden; */
 }
 
 .background-top {
@@ -54,7 +53,6 @@ body {
 .headline {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   padding: 0 6.5%;
   margin: 0 0 15% 0;
   gap: 12px;
@@ -168,7 +166,6 @@ body {
   color: #344563;
   font-weight: 400;
   font-size: 15px;
-  /* line-height: 24px; */
 }
 
 .skill {
@@ -488,9 +485,9 @@ hr {
     line-height: 1.667vw;
   }
 
-.fa-brands {
-  color: #505f79;
-}
+  .fa-brands {
+    color: #505f79;
+  }
 
   .card-grid {
     display: grid;
@@ -651,7 +648,7 @@ hr {
     display: flex;
     flex-direction: row;
     gap: 12px;
-    padding: 0px;
+    padding: 0;
   }
 
   .language-items li {
@@ -672,8 +669,6 @@ hr {
     font-size: 1.042vw;
     line-height: 1.389vw;
   }
-
-
 
   .contact-align {
     background: url("assets/images/contact-bg-desktop.svg");
@@ -716,22 +711,22 @@ hr {
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
-    Width: 447px;
-    Height: 48px;
+    width: 447px;
+    height: 48px;
   }
 
   .second {
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
-    Width: 447px;
-    Height: 48px;
+    width: 447px;
+    height: 48px;
   }
 
   .message {
     background: #fff;
-    Width: 447px;
-    Height: 170px;
+    width: 447px;
+    height: 170px;
     padding: 15px;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
