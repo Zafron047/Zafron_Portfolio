@@ -227,7 +227,7 @@ body {
   gap: 12px;
 }
 
-.bottom-page h2 {
+.bottom-1 h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -565,4 +565,57 @@ hr {
     font-size: 0.85vw;
     line-height: 1.1vw;
   }
+
+  .bottom-page {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-top-right-radius: 60px;
+    padding: 166px 10% 166px 12.7%;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    gap: 36px;
+  }
+
+  .bottom-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 40%;
+  }
+
+  .bottom-2 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .language-items {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin: 12px;
+  }
+
+  .language-items li {
+    display: flex;
+    flex-direction: column;
+    width: 8.472vw;
+    height: 8.333vw;
+    background: #f7f7f9;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 12px;
+  }
+
+  .language-items p {
+    padding-left: 5%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
 }
