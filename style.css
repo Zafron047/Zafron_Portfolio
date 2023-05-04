@@ -11,9 +11,10 @@
 
 body {
   background-color: #e5e5e5;
+  /* overflow-x: hidden; */
 }
 
-.bg {
+.background-top {
   background: url("assets/images/top-bg.svg");
   background-color: #fff;
   background-repeat: no-repeat;
@@ -27,23 +28,33 @@ body {
   padding-top: 20%;
 }
 
-.header-align {
+.header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 7.5%;
   position: relative;
   z-index: 2;
   background-color: #fff;
 }
 
-nav a:hover {
+.hamburger {
+  align-items: center;
+  float: right;
+}
+
+.hamburger a:hover {
   cursor: pointer;
 }
 
-.Top-Page {
+.menu {
+  display: none;
+}
+
+.headline {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 0 6.5%;
   margin: 0 0 15% 0;
   gap: 12px;
@@ -51,15 +62,8 @@ nav a:hover {
   z-index: 2;
 }
 
-.Top-Page h1 {
+.headline h1 {
   background-color: none;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
-}
-
-.Top-Page h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -86,7 +90,7 @@ nav a:hover {
 }
 
 .social-icon li {
-  padding-right: 6%;
+  padding-right: 19px;
 }
 
 .fa-brands {
@@ -109,12 +113,18 @@ nav a:hover {
   flex-direction: column;
   padding: 4.5%;
   background-color: #fff;
-  border-radius: 4.5%;
+  border-radius: 24px;
   gap: 12px;
   margin: 44px 0;
 }
 
-.card h3 {
+.card-right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-right h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -154,16 +164,16 @@ nav a:hover {
   border-radius: 50%;
 }
 
-.card p {
+.project-info {
+  color: #344563;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
-  color: #344563;
+  /* line-height: 24px; */
 }
 
 .skill {
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .skill-box {
@@ -407,4 +417,147 @@ hr {
   margin-top: 36px;
   border-radius: 10px;
   border: none;
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.75% 10.75%;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+  }
+
+  .logo img {
+    vertical-align: middle;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu {
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .background-top {
+    background: url("assets/images/desktop-bg.svg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-bottom-left-radius: 60px;
+    position: relative;
+    z-index: 1;
+    height: calc(916px - 75px);
+    width: auto;
+    padding-top: 0;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18%;
+    margin: 0;
+    gap: 12px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .headline h1 {
+    background-color: none;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: none;
+    color: #172b4d;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 118px 3.2%;
+    gap: 142px;
+  }
+
+  .card {
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 2.5em;
+    padding: 1em; */
+    background-color: #fff;
+    border-radius: 24px;
+    gap: 0;
+    margin: 0;
+    padding: 1.75%;
+    width: auto;
+    height: auto;
+  }
+
+  .card-left {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin: 0;
+  }
+
+  .card-right {
+    align-self: top;
+    width: 100%;
+    height: auto;
+    margin: 3.75%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .card-right h3 {
+    font-weight: 700;
+    font-size: 2.8vw;
+    line-height: 3.6vw;
+    color: #091e42;
+  }
+
+  .exp {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.6vw;
+    margin-bottom: 20px;
+  }
+
+  .project-info {
+    color: #344563;
+    font-weight: 400;
+    font-size: 1.111vw;
+    line-height: 1.6vw;
+  }
+
+  .skill {
+    display: flex;
+    margin-bottom: 28px;
+  }
+
+  .skill-box {
+    background: #ebebff;
+    color: #6070ff;
+    border-radius: 8px;
+    padding: 4px 12px;
+    margin-right: 8px;
+    font-weight: 500;
+    font-size: 0.85vw;
+    line-height: 1.1vw;
+  }
 }
