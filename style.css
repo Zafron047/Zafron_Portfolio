@@ -429,6 +429,7 @@ hr {
 
   .logo img {
     vertical-align: middle;
+    animation: flip 2s linear 1s;
   }
 
   .hamburger {
@@ -523,6 +524,19 @@ hr {
     align-self: center;
     margin: 0;
   }
+   .card-left:hover {
+    transform: scale(1.05);
+    
+  }
+  
+@keyframes flip {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
   .card-right {
     align-self: top;
