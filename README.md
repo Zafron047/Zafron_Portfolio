@@ -100,7 +100,7 @@ By following these steps, you can effectively run and validate the tests for the
 
 ### Deployment:
 
-Deployed at [https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/](https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/)
+Coming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
