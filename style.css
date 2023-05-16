@@ -39,6 +39,20 @@ body {
   padding: 30px;
 }
 
+hr {
+  color: #dfe1e6;
+}
+
+.menu-layer > hr {
+  position: absolute;
+  z-index: 10;
+  align-self: flex-end;
+  margin-left: 85px;
+  width: 134px;
+  color: black;
+  border: 2px solid black;
+}
+
 .menu-items {
   display: flex;
   flex-direction: column;
@@ -339,10 +353,6 @@ body {
 i.fa {
   font-size: 13px;
   padding-right: 28px;
-}
-
-hr {
-  color: #dfe1e6;
 }
 
 .contact {
