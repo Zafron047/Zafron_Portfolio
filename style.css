@@ -47,10 +47,10 @@ hr {
   position: absolute;
   z-index: 10;
   align-self: flex-end;
-  margin-left: 85px;
+  margin: 0 25vw 0;
   width: 134px;
   color: black;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .menu-items {
