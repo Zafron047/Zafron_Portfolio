@@ -18,3 +18,10 @@ function unPops() {
 
 closeButton.addEventListener("click", unPops);
 
+let Portfolio = document.querySelector("#Portfolio");
+let About = document.querySelector("#About");
+let Contact = document.querySelector("#Contact");
+
+Portfolio.addEventListener("click", unPops);
+About.addEventListener("click", unPops);
+Contact.addEventListener("click", unPops);
