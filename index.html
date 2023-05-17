@@ -13,6 +13,19 @@
   </head>
   <body>
     <main>
+      <div id="blur-background" class="blur-background"></div>
+      <div id="menu-layer" class="menu-layer">
+        <ul class="menu-items">
+          <li><a id="Portfolio" href="#portfolio-card">Portfolio</a></li>
+          <li><a id="About" href="#About-page">About</a></li>
+          <li><a id="Contact" href="#contact-form">Contact</a></li>
+        </ul>
+        <div class="menu-X">
+          <button id="close-button" class="close-button">X</button>
+        </div>
+        <hr />
+      </div>
+
       <section>
         <header class="header-container">
           <div class="logo">
@@ -20,15 +33,15 @@
           </div>
           <nav>
             <div class="hamburger">
-              <a href="#">
+              <a href="#" id="hamburger-link">
                 <img src="./assets/images/union.png" alt="" />
               </a>
             </div>
-            <div class="menu">
-              <p>Portfolio</p>
-              <p>About</p>
-              <p>Contact</p>
-            </div>
+            <ul class="menu">
+              <li>Portfolio</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
           </nav>
         </header>
 
@@ -36,30 +49,30 @@
           <section class="headline">
             <h1>I'm Nohain. <br />Glad to see you!</h1>
             <p class="myself">
-              I’m a software developer! I can help you build a product , feature
-              or website Look through some of my work and experience! If you
+              I’m a software developer! I can help you build a product, feature,
+              or website. Look through some of my work and experience! If you
               like what you see and have a project you need coded, don’t
               hesitate to contact me.
             </p>
             <h4 class="connect-p">LET’S CONNECT</h4>
             <ul class="social-icon">
               <li>
-                <a href="https://twitter.com/NohainZ"
-                  ><i class="fa-brands fa-twitter"></i
-                ></a>
+                <a href="https://twitter.com/NohainZ">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/nohain-islam-0261b4148/"
-                  ><i class="fa-brands fa-linkedin-in"></i
-                ></a>
+                <a href="https://www.linkedin.com/in/nohain-islam-0261b4148/">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
               </li>
               <li>
                 <a href="#"><i class="fa-brands fa-medium"></i></a>
               </li>
               <li>
-                <a href="https://github.com/Zafron047"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
+                <a href="https://github.com/Zafron047">
+                  <i class="fa-brands fa-github"></i>
+                </a>
               </li>
               <li>
                 <a href="#"><i class="fa-brands fa-angellist"></i></a>
@@ -69,7 +82,7 @@
         </section>
       </section>
 
-      <section class="card-grid">
+      <section id="portfolio-card" class="card-grid">
         <div class="card">
           <img class="card-left" src="./assets/images/card-1.svg" alt="" />
 
@@ -176,7 +189,7 @@
         </div>
       </section>
 
-      <section class="bottom-page">
+      <section id="About-page" class="bottom-page">
         <div class="bottom-1">
           <h2>About Myself</h2>
           <p class="myself">
@@ -251,8 +264,8 @@
         </ul>
       </section>
 
-      <div class="contact">
-        <div class="contact-align">
+      <section class="contact">
+        <div id="contact-form" class="contact-align">
           <h2>Contact me</h2>
           <p>
             If you have an application you are interested in developing, a
@@ -295,7 +308,8 @@
           </form>
           <hr />
         </div>
-      </div>
+      </section>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>
