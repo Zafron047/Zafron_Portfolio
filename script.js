@@ -33,6 +33,41 @@ const projectBtns = document.querySelectorAll("#portfolio-card #see-project");
 for (let i in projectBtns) {
   projectBtns[i].addEventListener("click", function projectPop() {
 
+    const projectsArr = [
+      {
+        projectName: "Tonic",
+        projectDescription:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+        Technology: ["HTML", "CSS", "JavaScript"],
+        linkToLive: "https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/",
+        linkToSource: "https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1",
+      },
+      {
+        projectName: "Tonic",
+        projectDescription:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+        Technology: ["HTML", "CSS", "JavaScript"],
+        linkToLive: "https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/",
+        linkToSource: "https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1",
+      },
+      {
+        projectName: "Tonic",
+        projectDescription:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+        Technology: ["HTML", "CSS", "JavaScript"],
+        linkToLive: "https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/",
+        linkToSource: "https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1",
+      },
+      {
+        projectName: "Tonic",
+        projectDescription:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+        Technology: ["HTML", "CSS", "JavaScript"],
+        linkToLive: "https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/",
+        linkToSource: "https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1",
+      },
+    ];
+    
     const newDiv = document.createElement("div");
     newDiv.id = "card";
     newDiv.innerHTML = `<div class="card-right">
