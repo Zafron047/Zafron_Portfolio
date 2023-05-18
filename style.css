@@ -135,7 +135,6 @@ hr {
 }
 
 .headline h1 {
-  background-color: none;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -203,6 +202,22 @@ hr {
   color: #172b4d;
 }
 
+.close-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-close {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 0.5%;
+  margin-right: 2%;
+  background-color: transparent;
+  border: none;
+  color: #67798E;
+}
+
 .exp {
   display: flex;
   align-items: center;
@@ -258,14 +273,23 @@ hr {
   line-height: 16px;
 }
 
+.pop-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
 .btn {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   color: #396df2;
   border: 1px solid #396df2;
   border-radius: 8px;
-  width: 126px;
+  width: 136px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px;
   padding: 12px;
   text-align: center;
@@ -542,10 +566,8 @@ i.fa {
   }
 
   .headline h1 {
-    background-color: none;
     font-weight: 700;
     font-size: 40px;
-    line-height: none;
     color: #172b4d;
   }
 
@@ -610,7 +632,6 @@ i.fa {
   }
 
   .card-right {
-    align-self: top;
     width: auto;
     height: auto;
     margin: 3.75%;
