@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -88,7 +88,7 @@ hr {
 }
 
 .background-top {
-  background: url("assets/images/top-bg.svg");
+  background: url('assets/images/top-bg.svg');
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
@@ -215,7 +215,7 @@ hr {
   margin-right: 2%;
   background-color: transparent;
   border: none;
-  color: #67798E;
+  color: #67798e;
 }
 
 .exp {
@@ -241,7 +241,7 @@ hr {
 }
 
 .exp li::before {
-  content: "";
+  content: '';
   display: inline-block;
   margin-bottom: 1px;
   width: 8px;
@@ -388,7 +388,7 @@ i.fa {
 }
 
 .contact-align {
-  background: url("assets/images/contact-bg.svg");
+  background: url('assets/images/contact-bg.svg');
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -542,7 +542,7 @@ i.fa {
   }
 
   .background-top {
-    background: url("assets/images/desktop-bg.svg");
+    background: url('assets/images/desktop-bg.svg');
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center;
@@ -778,7 +778,7 @@ i.fa {
   }
 
   .contact-align {
-    background: url("assets/images/contact-bg-desktop.svg");
+    background: url('assets/images/contact-bg-desktop.svg');
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: 80%;
@@ -854,7 +854,7 @@ i.fa {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 48px 48px 48px #252f8914;
+    box-shadow: 0 48px 48px 48px #252f8914;
     display: flex;
     flex-direction: column;
     padding: 4.5%;
@@ -890,23 +890,25 @@ i.fa {
     width: 100%;
     height: auto;
     margin: 3.75% 0;
+
     /* padding: 0; */
     gap: 24px;
   }
-  
+
   .card-details-left {
     width: 70%;
   }
-  
+
   .card-details-right {
     width: 30%;
+
     /* gap: 24px; */
   }
-  
-  .card-details-right hr{
+
+  .card-details-right hr {
     width: 20.7vw;
-    color: #EBECF0;
-    border: 1px solid #EBECF0
+    color: #ebecf0;
+    border: 1px solid #ebecf0;
   }
 
   .d-pop-btn {
@@ -924,7 +926,7 @@ i.fa {
   }
 
   .d-pop-btn::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
