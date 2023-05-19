@@ -275,7 +275,8 @@ hr {
 
 .pop-btn {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 24px;
 }
 
 .btn {
@@ -875,8 +876,8 @@ i.fa {
   }
 
   .popup-close:hover {
-    border: 1px solid #67798e;
-    background-color: #6070FF;
+    /* border: 1px solid #fff; */
+    background-color: #67798e;
     color: #fff;
     border-radius: 25%;
     padding: 2.5%;
@@ -904,7 +905,22 @@ i.fa {
   
   .card-details-right hr{
     width: 20.7vw;
-    color: #EBECF0
+    color: #EBECF0;
+    border: 1px solid #EBECF0
+  }
+
+  .d-pop-btn {
+    position: relative;
+    background-color: #fff;
+    color: #396df2;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    width: 9.5vw;
+    height: 2.5vh;
+    font-weight: 500;
+    font-size: 1.181vw;
+    line-height: 1.667vw;
+    cursor: pointer;
   }
 
   .d-pop-btn::before {
