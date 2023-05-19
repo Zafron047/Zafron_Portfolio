@@ -172,7 +172,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       </div>`;
       newDiv.classList.add('card');
       newDiv.style.position = 'fixed';
-      newDiv.style.top = '50%';
+      newDiv.style.top = '0';
       newDiv.style.left = '50%';
       newDiv.style.transform = 'translateX(-50%)';
       newDiv.style.zIndex = '99';
