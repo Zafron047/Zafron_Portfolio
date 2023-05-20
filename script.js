@@ -229,11 +229,10 @@ contactForm.addEventListener('submit', (event) => {
     contactMessage.innerText = 'error: email should be in Lowercase';
   }
 });
-//---------- Preserve datat in Local Storage ---------
 
+// ---------- Preserve datat in Local Storage ---------
 const formName = document.getElementById('Name');
 const formMessage = document.getElementById('form_message');
-console.log(formName);
 contactForm.addEventListener('input', () => {
   const formData = {
     name: formName.value,
@@ -250,6 +249,6 @@ function showData() {
     formName.value = userData.name;
     contactEmail.value = userData.email;
     formMessage.value = userData.message;
-  }
+  }
 }
 showData();
