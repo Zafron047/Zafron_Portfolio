@@ -189,9 +189,17 @@ hr {
   margin: 44px 0;
 }
 
+.card-left {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  margin: 0;
+}
+
 .card-right {
   display: flex;
   flex-direction: column;
+  height: auto;
   gap: 12px;
 }
 
@@ -276,7 +284,8 @@ hr {
 .pop-btn {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
+
+  /* margin-top: 24px; */
 }
 
 .btn {
@@ -850,7 +859,7 @@ i.fa {
   .d-card {
     position: fixed;
     height: auto;
-    width: 80vw;
+    width: 85vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -860,7 +869,12 @@ i.fa {
     padding: 4.5%;
     background-color: #fff;
     border-radius: 24px;
-    gap: 12px;
+  }
+
+  .d-card img {
+    width: 77vw;
+    height: 72vw;
+    align-self: center;
   }
 
   .D-Pop-Header {
@@ -889,8 +903,6 @@ i.fa {
     width: 100%;
     height: auto;
     margin: 3.75% 0;
-
-    /* padding: 0; */
     gap: 24px;
   }
 
@@ -916,10 +928,10 @@ i.fa {
     color: #396df2;
     border: 1px solid #396df2;
     border-radius: 8px;
-    width: 9.5vw;
-    height: 2.5vh;
+    width: 10vw;
+    height: 3vh;
     font-weight: 500;
-    font-size: 1.181vw;
+    font-size: 1.3vw;
     line-height: 1.667vw;
     cursor: pointer;
   }

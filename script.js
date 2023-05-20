@@ -32,33 +32,37 @@ const projectsArr = [
     projectName: 'Tonic',
     projectDescription:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    Technology: ['HTML', 'CSS', 'JavaScript'],
+    technology: ['HTML', 'CSS', 'JavaScript'],
     linkToLive: 'https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/',
     linkToSource: 'https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1',
+    image: './assets/images/card-1.svg',
   },
   {
     projectName: 'Tonic',
     projectDescription:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    Technology: ['HTML', 'CSS', 'JavaScript'],
+    technology: ['HTML', 'CSS', 'JavaScript'],
     linkToLive: 'https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/',
     linkToSource: 'https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1',
+    image: './assets/images/card-1.svg',
   },
   {
     projectName: 'Tonic',
     projectDescription:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    Technology: ['HTML', 'CSS', 'JavaScript'],
+    technology: ['HTML', 'CSS', 'JavaScript'],
     linkToLive: 'https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/',
     linkToSource: 'https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1',
+    image: './assets/images/card-1.svg',
   },
   {
     projectName: 'Tonic',
     projectDescription:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    Technology: ['HTML', 'CSS', 'JavaScript'],
+    technology: ['HTML', 'CSS', 'JavaScript'],
     linkToLive: 'https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/',
     linkToSource: 'https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1',
+    image: './assets/images/card-1.svg',
   },
 ];
 
@@ -95,7 +99,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
             <a><button id='desk-popup-close' class='popup-close'>X</button></a>
           </div>
 
-          <img src='./assets/images/popup-img-desktop.svg'/>
+          <img src='${projectsArr[i].image}'/>
 
           <div class='card-details'>
             <div class='card-details-left'>
@@ -106,14 +110,14 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
 
             <div class='card-details-right'>
               <ul class='skill'>
-                <li class='skill-box'>${projectsArr[i].Technology[0]}</li>
-                <li class='skill-box'>${projectsArr[i].Technology[1]}</li>
-                <li class='skill-box'>${projectsArr[i].Technology[2]}</li>
+                <li class='skill-box'>${projectsArr[i].technology[0]}</li>
+                <li class='skill-box'>${projectsArr[i].technology[1]}</li>
+                <li class='skill-box'>${projectsArr[i].technology[2]}</li>
               </ul>
               <hr>
               <div class='pop-btn'>
                 <a href='${projectsArr[i].linkToLive}'>
-                  <button class='d-pop-btn' href>
+                  <button class='d-pop-btn'>
                     See Live
                     <i class='fa-solid fa-arrow-up-right-dots fa-2xs' style='color: #6070ff;'></i>
                   </button>
@@ -132,7 +136,8 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
     } else {
       const newDiv = document.createElement('div');
       newDiv.id = 'card';
-      newDiv.innerHTML = `<div class='card-right'>
+      newDiv.innerHTML = `
+      <div class='card-right'>
         <div class='close-container'>
           <h3>${projectsArr[i].projectName}</h3>
           <button id='popup-close' class='popup-close'>&#x2716;</button>
@@ -145,14 +150,14 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
           </ul>
         </div>
   
-        <img class='card-left' src='./assets/images/card-1.svg' alt='' />
+        <img class='card-left' src='${projectsArr[i].image}' alt='' />
   
         <p>${projectsArr[i].projectDescription}</p>
   
         <ul class='skill'>
-          <li class='skill-box'>${projectsArr[i].Technology[0]}</li>
-          <li class='skill-box'>${projectsArr[i].Technology[1]}</li>
-          <li class='skill-box'>${projectsArr[i].Technology[2]}</li>
+          <li class='skill-box'>${projectsArr[i].technology[0]}</li>
+          <li class='skill-box'>${projectsArr[i].technology[1]}</li>
+          <li class='skill-box'>${projectsArr[i].technology[2]}</li>
         </ul>
   
         <div class='pop-btn'>
@@ -172,11 +177,14 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       </div>`;
       newDiv.classList.add('card');
       newDiv.style.position = 'fixed';
+      newDiv.style.marginTop = '20px';
       newDiv.style.top = '0';
       newDiv.style.left = '50%';
+      newDiv.style.height = '650px';
+      newDiv.style.width = '94%';
       newDiv.style.transform = 'translateX(-50%)';
       newDiv.style.zIndex = '99';
-      newDiv.style.width = '94%';
+      newDiv.style.overflow = 'auto';
       document.body.appendChild(newDiv);
     }
   });
