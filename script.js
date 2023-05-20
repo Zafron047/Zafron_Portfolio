@@ -244,3 +244,12 @@ contactForm.addEventListener('input', () => {
   localStorage.setItem('contactForm', JSON.stringify(formData));
 });
 
+function showData() {
+  const userData = JSON.parse(localStorage.getItem('contactForm'));
+  if (userData) {
+    formName.value = userData.name;
+    contactEmail.value = userData.email;
+    formMessage.value = userData.message;
+  }
+}
+showData();
