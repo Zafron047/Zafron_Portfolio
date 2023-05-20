@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 812px;
+  height: 100vh;
   z-index: 9;
   backdrop-filter: blur(7px);
 }
@@ -60,6 +60,13 @@ hr {
   gap: 35px;
 }
 
+.pop-btn a {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-left: 5px;
+}
+
 .menu-items li a {
   cursor: pointer;
   color: #fff;
@@ -88,7 +95,7 @@ hr {
 }
 
 .background-top {
-  background: url("assets/images/top-bg.svg");
+  background: url('assets/images/top-bg.svg');
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
@@ -135,7 +142,6 @@ hr {
 }
 
 .headline h1 {
-  background-color: none;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -183,6 +189,7 @@ hr {
 .card {
   display: flex;
   flex-direction: column;
+  height: auto;
   padding: 4.5%;
   background-color: #fff;
   border-radius: 24px;
@@ -190,17 +197,58 @@ hr {
   margin: 44px 0;
 }
 
+.pop-card {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 4.5%;
+  background-color: #fff;
+  border-radius: 24px;
+  gap: 12px;
+  margin: 44px 0;
+}
+
+.Pop-Img {
+  width: 100%;
+  height: 45%;
+  align-self: center;
+  margin: 0;
+}
+
+.card-left {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  margin: 0;
+}
+
 .card-right {
   display: flex;
   flex-direction: column;
+  height: 100%;
   gap: 12px;
 }
 
 .card-right h3 {
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;
   color: #172b4d;
+}
+
+.close-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-close {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 0.5%;
+  margin-right: 2%;
+  background-color: transparent;
+  border: none;
+  color: #67798e;
 }
 
 .exp {
@@ -226,7 +274,7 @@ hr {
 }
 
 .exp li::before {
-  content: "";
+  content: '';
   display: inline-block;
   margin-bottom: 1px;
   width: 8px;
@@ -239,7 +287,7 @@ hr {
 .project-info {
   color: #344563;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 70%;
 }
 
 .skill {
@@ -258,14 +306,23 @@ hr {
   line-height: 16px;
 }
 
+.pop-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
 .btn {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   color: #396df2;
   border: 1px solid #396df2;
   border-radius: 8px;
-  width: 126px;
+  width: 136px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px;
   padding: 12px;
   text-align: center;
@@ -363,7 +420,7 @@ i.fa {
 }
 
 .contact-align {
-  background: url("assets/images/contact-bg.svg");
+  background: url('assets/images/contact-bg.svg');
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -517,7 +574,7 @@ i.fa {
   }
 
   .background-top {
-    background: url("assets/images/desktop-bg.svg");
+    background: url('assets/images/desktop-bg.svg');
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center;
@@ -542,10 +599,8 @@ i.fa {
   }
 
   .headline h1 {
-    background-color: none;
     font-weight: 700;
     font-size: 40px;
-    line-height: none;
     color: #172b4d;
   }
 
@@ -610,7 +665,6 @@ i.fa {
   }
 
   .card-right {
-    align-self: top;
     width: auto;
     height: auto;
     margin: 3.75%;
@@ -625,18 +679,6 @@ i.fa {
     font-size: 2.8vw;
     line-height: 3.6vw;
     color: #091e42;
-  }
-
-  .btn {
-    background-color: #fff;
-    color: #396df2;
-    border: 1px solid #396df2;
-    border-radius: 8px;
-    width: 9.5vw;
-    font-weight: 500;
-    font-size: 1.181vw;
-    line-height: 1.667vw;
-    cursor: pointer;
   }
 
   #resume-btn {
@@ -655,8 +697,7 @@ i.fa {
   .project-info {
     color: #344563;
     font-weight: 400;
-    font-size: 1.111vw;
-    line-height: 1.6vw;
+    font-size: 80%;
   }
 
   .skill {
@@ -673,6 +714,18 @@ i.fa {
     font-weight: 500;
     font-size: 0.85vw;
     line-height: 1.1vw;
+  }
+
+  .btn {
+    background-color: #fff;
+    color: #396df2;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    width: 9.5vw;
+    font-weight: 500;
+    font-size: 1.181vw;
+    line-height: 1.667vw;
+    cursor: pointer;
   }
 
   .bottom-page {
@@ -756,7 +809,7 @@ i.fa {
   }
 
   .contact-align {
-    background: url("assets/images/contact-bg-desktop.svg");
+    background: url('assets/images/contact-bg-desktop.svg');
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: 80%;
@@ -823,5 +876,123 @@ i.fa {
 
   .contact-align hr {
     display: none;
+  }
+
+  .d-card {
+    position: fixed;
+    height: 90%;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 48px 48px 48px #252f8914;
+    display: flex;
+    flex-direction: column;
+    padding: 4.5%;
+    background-color: #fff;
+    border-radius: 24px;
+    overflow: inherit;
+  }
+
+  .Pop-Img {
+    width: 100%;
+    height: 70%;
+    align-self: center;
+    margin: 0;
+  }
+
+  .D-Pop-Header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .D-Pop-Header h3 {
+    font-weight: 700;
+    font-size: 2.8vw;
+    line-height: 3.6vw;
+    color: #091e42;
+  }
+
+  .popup-close:hover {
+    background-color: #67798e;
+    color: #fff;
+    border-radius: 25%;
+    padding: 2.5%;
+  }
+
+  .card-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 3.75% 0;
+    gap: 24px;
+  }
+
+  .card-details-left {
+    width: 65%;
+  }
+
+  .card-details-right {
+    width: 35%;
+  }
+
+  .card-details-right hr {
+    width: 20.7vw;
+    color: #ebecf0;
+    border: 1px solid #ebecf0;
+    margin-bottom: 24px;
+  }
+
+  .pop-btn {
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+  }
+
+  .pop-btn a {
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+  }
+
+  .d-pop-btn {
+    position: relative;
+    background-color: #fff;
+    color: #396df2;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    width: 100%;
+    height: 70%;
+    font-weight: 500;
+    font-size: 70%;
+    cursor: pointer;
+    padding: 0 5%;
+  }
+
+  .d-pop-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .d-pop-btn:hover::before {
+    background-color: #6070ff;
+    opacity: 0.5;
+  }
+
+  .d-pop-btn:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .d-pop-btn:active {
+    background-color: #2230d2;
+    color: #fff;
   }
 }
