@@ -293,6 +293,7 @@
             to help with it!
           </p>
           <form
+            id="desk-form"
             class="desk-form"
             action="https://formspree.io/f/xqkoyoly"
             method="post"
@@ -300,31 +301,31 @@
             <input
               type="text"
               maxlength="30"
-              id="name"
+              id="Name"
               class="first"
-              placeholder="Lorem Ipsum"
+              placeholder="Enter Name"
               required
             />
             <input
               type="email"
               name="email"
               required
-              id="email"
+              id="email-input"
               class="second"
-              placeholder="Lorem Ipsum"
+              placeholder="Enter email"
             />
-
             <textarea
               type="text"
               maxlength="500"
               cols="1"
               rows="10"
+              id="form_message"
               class="message"
               required
               placeholder="Write your message here..."
             ></textarea>
-
-            <button type="submit" href="#" class="btn">Get in touch</button>
+            <div id="alertMessage" class="alertMessage"></div>
+            <button type="submit" href="#" class="form-btn">Get in touch</button>
           </form>
           <hr />
         </div>

@@ -217,3 +217,15 @@ document.addEventListener('click', (event) => {
     removeDeskPop();
   }
 });
+
+// ----------- Contact validation ------------
+const contactForm = document.getElementById('desk-form');
+const contactEmail = document.getElementById('email-input');
+const contactMessage = document.getElementById('alertMessage');
+
+contactForm.addEventListener('submit', (event) => {
+  if (contactEmail.value.toLowerCase() !== contactEmail.value) {
+    event.preventDefault();
+    contactMessage.innerText = 'error: email should be in Lowercase';
+  }
+});

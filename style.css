@@ -13,6 +13,16 @@ body {
   background-color: #e5e5e5;
 }
 
+.alertMessage {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  color: red;
+  font-size: 95%;
+  text-align: center;
+  width: 95%;
+}
+
 .blur-background {
   display: none;
   position: absolute;
@@ -426,6 +436,7 @@ i.fa {
   background-size: 50%;
   background-position: right;
   border-top-left-radius: 90px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -505,28 +516,25 @@ i.fa {
   gap: 20px;
 }
 
-.desk-form .btn {
-  width: 142px;
+.form-btn {
   height: 48px;
+  width: 45%;
   background: #fff;
   border-radius: 8px;
   border: none;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
-  cursor: pointer;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #6070ff;
 }
 
-.desk-form .btn:hover {
+.form-btn:hover {
   background-color: #6070ff;
   color: white;
   border: 2px solid #fff;
 }
 
-.desk-form .btn:active {
+.form-btn:active {
   background-color: #2230d2;
   color: white;
   border: 2px solid #fff;
@@ -544,6 +552,16 @@ i.fa {
 }
 
 @media (min-width: 768px) {
+  .alertMessage {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #ff4000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 90%;
+  }
+
   .header-container {
     display: flex;
     justify-content: space-between;
