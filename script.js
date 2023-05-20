@@ -35,7 +35,7 @@ const projectsArr = [
     technology: ['HTML', 'CSS', 'JavaScript'],
     linkToLive: 'https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/',
     linkToSource: 'https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1',
-    image: './assets/images/card-1.svg',
+    image: './assets/images/popup-img-desktop.svg',
   },
   {
     projectName: 'Tonic',
@@ -99,7 +99,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
             <a><button id='desk-popup-close' class='popup-close'>X</button></a>
           </div>
 
-          <img src='${projectsArr[i].image}'/>
+          <img class="Pop-Img" src='${projectsArr[i].image}'/>
 
           <div class='card-details'>
             <div class='card-details-left'>
@@ -118,13 +118,13 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
               <div class='pop-btn'>
                 <a href='${projectsArr[i].linkToLive}'>
                   <button class='d-pop-btn'>
-                    See Live
+                    <span>See Live</span>
                     <i class='fa-solid fa-arrow-up-right-dots fa-2xs' style='color: #6070ff;'></i>
                   </button>
                 </a>
                 <a href='${projectsArr[i].linkToSource}'>
                   <button class='d-pop-btn'>
-                    See Source
+                    <span>See Source</span>
                     <i class='fa-brands fa-github fa-2xs' style='color: #6070ff;'></i>
                   </button>
                 </a>
@@ -135,7 +135,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
       document.body.appendChild(popDiv);
     } else {
       const newDiv = document.createElement('div');
-      newDiv.id = 'card';
+      newDiv.id = 'pop-card';
       newDiv.innerHTML = `
       <div class='card-right'>
         <div class='close-container'>
@@ -150,9 +150,9 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
           </ul>
         </div>
   
-        <img class='card-left' src='${projectsArr[i].image}' alt='' />
+        <img class="Pop-Img" src='${projectsArr[i].image}' alt='' />
   
-        <p>${projectsArr[i].projectDescription}</p>
+        <p class="project-info">${projectsArr[i].projectDescription}</p>
   
         <ul class='skill'>
           <li class='skill-box'>${projectsArr[i].technology[0]}</li>
@@ -175,7 +175,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
           </a>
         </div>
       </div>`;
-      newDiv.classList.add('card');
+      newDiv.classList.add('pop-card');
       newDiv.style.position = 'fixed';
       newDiv.style.marginTop = '20px';
       newDiv.style.top = '0';
@@ -193,7 +193,7 @@ Array.from(projectBtns).forEach((projectBtns, i) => {
 // ----------- close Mobile popup ------------
 
 function removeNewDiv() {
-  const newDiv = document.querySelector('#card');
+  const newDiv = document.querySelector('#pop-card');
   const parentElement = newDiv.parentNode;
   parentElement.removeChild(newDiv);
 }
