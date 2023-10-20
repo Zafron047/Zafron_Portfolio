@@ -29,13 +29,13 @@ Contact.addEventListener('click', unPops);
 
 const projectsArr = [
   {
-    projectName: 'Tonic',
+    projectName: 'Expenditure',
     projectDescription:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+      'This Ruby on Rails project is about building a mobile web application where user can manage budget: user have a list of transactions associated with a group, so that user can see how much money they have spent and on what.',
     technology: ['HTML', 'CSS', 'JavaScript'],
-    linkToLive: 'https://zafron047.github.io/Portfolio_Cohort-20_Mod-1/',
-    linkToSource: 'https://github.com/Zafron047/Portfolio_Cohort-20_Mod-1',
-    image: './assets/images/popup-img-desktop.svg',
+    linkToLive: 'https://expenditure-2i8a.onrender.com',
+    linkToSource: 'https://github.com/Zafron047/Expenditures',
+    image: './assets/images/expenditure.png',
   },
   {
     projectName: 'Tonic',
